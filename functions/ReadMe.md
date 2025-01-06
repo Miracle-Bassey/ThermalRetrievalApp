@@ -1,5 +1,20 @@
 ## Flask Weather App - README
 
+├── flaskProject1/
+
+│   ├── weather_app.py
+
+│   ├── functions/
+
+│   │   ├── __init__.py
+
+│   │   ├── thermal_retrieval_app.py
+
+│   │   ├── ReadMe.md
+
+│   ├── config.env
+
+
 ### Overview
 
 This Flask app fetches weather data based on a user-provided date and location. It uses Visual Crossing for weather data and OpenWeather for geocoding (converting location names to coordinates). The app can handle both future forecasts and past weather trends by specifying the desired date.
